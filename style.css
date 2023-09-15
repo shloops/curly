@@ -97,7 +97,11 @@ html, body {
     vertical-align: middle;
     padding: .67em;
     cursor: crosshair;
-    background-color: #046C9A0A;
+    background-color: #046C9A3F;
+}
+
+.contact-button:hover {
+    background-color: #046C9A6A;
 }
 
 .generic-button {
@@ -105,4 +109,33 @@ html, body {
     vertical-align: middle;
     padding: .67em;
     cursor: pointer;
+    margin: .5em;
+}
+
+.crime-row {
+    border-bottom: 1px solid #046C9A;
+    margin: 1em;
+    padding: 1em;
+}
+
+.crime-row:last-child {
+    border-bottom: none;
+}
+
+.crime-item {
+    padding-right: 1em;
+}
+.crime-date {
+    font-weight: bold;
+}
+
+.input-text-box {
+    margin: 1em;
+}
+
+.evidence-button {
+    color: #046C9A;
+}
+.tuna-image {
+    opacity: 0;
 }
